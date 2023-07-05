@@ -5,7 +5,7 @@ import(
 	"log"
 	"net/http"
 )
-
+/*
 func formHandler(w http.ResponseWriter, r "http.Request") {
 	if err := r.ParseForm(); err != nil {
 		fmt.Fprint(w, "ParseForm() err: %v", err)
@@ -24,6 +24,7 @@ func helloHandler(w http.ResponseWriter, r "http.Request") {
 	}
 	fmt.Fprint(w, "hello!")
 }
+*/
 
 func main() {
 	fileServer := http.fileServer(http.Dir("./static"))
